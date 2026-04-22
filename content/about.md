@@ -5,15 +5,13 @@ url: "/about/"
 summary: "about"
 ---
 
-I'm Josh. Process engineer by training, nerd by constitution, father by choice (best decision, worst sleep).
+Most of my best ideas happen in the shower. My wife finds this mildly annoying.
 
-By day I apply multivariate statistics to pharmaceutical manufacturing — making sure the thing coming off the line is the thing it's supposed to be. By night I'm usually thinking about some other system that could probably use a model. The shower is where most of this happens. My family has accepted this.
+I'm Josh — process engineer, compulsive modeler, father of two. I spend my days building statistical models for pharmaceutical manufacturing, which mostly means staring at data until it confesses something useful. Then I come home, and the habit doesn't stop.
 
-**This blog is what happens when that thinking escapes the bathroom.**
+I have a 3D printer, a coffee setup with too many variables, and two kids who have not yet asked me to stop explaining things. When that changes, I'll pivot.
 
-The premise is simple: complex processes — whether it's a pill, a 3D print, or a cup of coffee — leave fingerprints in their data. I want to find those fingerprints, understand what they're saying, and explain it in a way that doesn't require a statistics degree to follow. Graphics help. So does being honest about when things don't work.
-
-Each project is documented in real time. I don't have the answers before I start writing. That's the point.
+This blog is what happens when the models escape the day job — documented in real time, with math, and with graphics. I don't have the answers before I start writing. That's the point.
 
 ---
 

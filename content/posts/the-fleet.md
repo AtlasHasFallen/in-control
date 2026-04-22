@@ -1,7 +1,7 @@
 ---
 title: "The Fleet"
 date: 2026-04-21
-draft: true
+draft: false
 tags: ["3d-printing", "intro"]
 description: "Six 3D printers. One unfinished. A process engineer asks the obvious question a little too late."
 ShowToc: false

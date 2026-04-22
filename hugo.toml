@@ -5,7 +5,7 @@ theme = 'PaperMod'
 paginate = 10
 
 [params]
-  author = "Joshua Gort"
+  author = "Josh Gorton"
   description = "Process engineering thinking applied to things worth caring about."
   defaultTheme = "auto"
   ShowReadingTime = true

@@ -10,40 +10,28 @@ math: false
 
 It started with one printer. It always starts with one printer.
 
-## The Prusa
+What nobody tells you when you buy your first 3D printer is how many settings it has. Temperature, speed, layer height, retraction distance, cooling, infill density, infill pattern — each one a dial you're expected to tune by feel, guided by forum posts from strangers who may or may not have the same filament, the same room temperature, or the same definition of "good enough."
 
-A Prusa MK-series kit — built by hand, which at the time felt like an accomplishment worth mentioning. It has a temperature issue with the extruder that I've been meaning to sort out. I haven't sorted it out.
+I am a process engineer. I build statistical models for manufacturing processes. I did not notice the irony of this for several years.
 
-## The Mars
+## The Fleet
 
-Resin. A completely different process — photopolymer cured layer by layer in a vat of something you probably shouldn't breathe. The Elegoo Mars is small, precise, and requires more post-processing than I anticipated when I bought it. I anticipated none.
+**Prusa MK-series** — built from a kit, which taught me a great deal about how these machines actually work. It has a temperature issue with the extruder I haven't resolved. Something in the process is drifting. I know this because the prints tell me. I have not gone further than that.
 
-## The Ender 3
+**Elegoo Mars** — resin. A completely different process: photopolymer cured layer by layer by UV light in a vat of something you probably shouldn't breathe. Fewer tunable parameters than FDM, but the ones that matter — exposure time, lift speed, layer thickness — matter a lot. I found the right settings eventually. I couldn't tell you exactly why they're right.
 
-The Prusa build went well enough that I thought: sure, another one.
+**Ender 3** — the Prusa build went well enough that I thought: sure, another one. The Ender 3 now lives in my workshop in a state I'll generously describe as "in progress." The workshop is very patient.
 
-The Ender 3 now lives in the workshop in a state I'll generously describe as "in progress." It keeps excellent company with several other projects that ran out of momentum before they ran out of ambition. The workshop is very patient.
+**Elegoo Saturn** — larger resin printer. Same process as the Mars, bigger build volume, more things to calibrate. More prints I'm happy with. Still no formal understanding of why.
 
-## The Saturn
+**Bambu X1C** — fast, enclosed, multi-material capable, and packed with sensors. It logs temperatures, flow rates, vibration signatures. It has a mechanical extruder issue I haven't diagnosed. Somewhere in that data is probably the answer. I have not looked.
 
-A larger resin printer. The logic was that if I was already doing resin, I should be able to print bigger things. The logic was sound. The Saturn is good. I have nowhere to put the prints.
-
-## The Bambu X1C
-
-Then came the Bambu X1C — fast, enclosed, multi-material capable, and with a mechanical extruder issue that I have not yet resolved. It remains impressive despite this. The engineering on these machines is genuinely good.
-
-## The Bambu P1S
-
-The P1S is the current workhorse. Enclosed, reliable, fast. No known issues, which in this fleet makes it something of an anomaly.
+**Bambu P1S** — the current workhorse. Enclosed, reliable, consistent. Every print generates a record of its parameters. I have never seriously analyzed one.
 
 ---
 
-Six printers. One unfinished. Two broken in interesting ways. Two full of resin.
+Six printers. Hundreds of prints. Thousands of data points I've collected by accident and ignored on purpose.
 
-Here's what I noticed, recently, after years of dialing in settings by feel and consulting forums and hoping for the best: I'm a process engineer. I do this for a living with pharmaceutical manufacturing — I build models, run designed experiments, quantify variation, and predict outcomes from process parameters.
+Here's the question I should have asked years ago: what would it look like to treat this like a process? Not forum-post engineering — actual designed experiments, actual models, actual predictions. Can I build something that tells me, from process parameters alone, whether a print will succeed before it fails?
 
-I have never done any of that with my printers.
-
-The P1S is going to be the testbed. The question is simple: can I treat a 3D printer like a process, instrument it like a process, and build a model that predicts whether a print will succeed before it fails?
-
-That's what this blog is for. We'll find out.
+The P1S is the testbed. That's what this blog is for. We'll find out.

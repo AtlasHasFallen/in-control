@@ -1,0 +1,40 @@
+baseURL = 'https://AltasHasFallen.github.io/'
+languageCode = 'en-us'
+title = 'In Control'
+theme = 'PaperMod'
+paginate = 10
+
+[params]
+  author = "Joshua Gort"
+  description = "Process engineering thinking applied to things worth caring about."
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "In Control"
+    Content = "Process engineering thinking applied to things worth caring about — 3D printing, coffee, and whatever else demands a model."
+
+  [params.math]
+    enable = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github-dark"
+    lineNos = false
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2

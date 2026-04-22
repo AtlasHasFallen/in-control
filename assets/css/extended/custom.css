@@ -1,6 +1,8 @@
 /* ─────────────────────────────────────────────
    In Control — brand palette
    Primary accent: Sage Forest Green #52796F
+   Light bg: Warm off-white   #F7F5F0
+   Dark bg:  Deep forest      #1A2421
    ───────────────────────────────────────────── */
 
 :root {
@@ -8,6 +10,27 @@
     --sage-light: #84A98C;
     --sage-muted: #CAD2C5;
     --sage-dark:  #354F52;
+}
+
+/* Light mode background */
+body {
+    background-color: #F7F5F0;
+}
+
+/* Dark mode background */
+.dark body,
+[data-theme="dark"] body {
+    background-color: #1A2421;
+}
+
+/* PaperMod uses --theme for the main bg variable */
+:root {
+    --theme: #F7F5F0;
+}
+
+.dark,
+[data-theme="dark"] {
+    --theme: #1A2421;
 }
 
 /* Links */

@@ -18,8 +18,9 @@ paginate = 10
     Title = "In Control"
     Content = "Process engineering thinking applied to things worth caring about — 3D printing, coffee, and whatever else demands a model."
 
-  [params.math]
-    enable = true
+  [params.assets]
+    favicon = "/in-control/favicon.svg"
+
 
 [markup]
   [markup.goldmark]

@@ -1,0 +1,63 @@
+/* ─────────────────────────────────────────────
+   In Control — brand palette
+   Primary accent: Sage Forest Green #52796F
+   ───────────────────────────────────────────── */
+
+:root {
+    --sage:       #52796F;
+    --sage-light: #84A98C;
+    --sage-muted: #CAD2C5;
+    --sage-dark:  #354F52;
+}
+
+/* Links */
+a,
+.post-entry .entry-hint-parent,
+.breadcrumbs a {
+    color: var(--sage);
+}
+
+a:hover {
+    color: var(--sage-dark);
+}
+
+/* Nav / menu */
+.menu a:hover,
+#menu-checkbox:checked ~ .menu .menu-inner a {
+    color: var(--sage);
+}
+
+/* Active nav item underline */
+.menu a.active {
+    border-bottom: 2px solid var(--sage);
+    color: var(--sage);
+}
+
+/* Tags */
+.post-tags a {
+    border: 1px solid var(--sage-muted);
+    color: var(--sage);
+}
+
+.post-tags a:hover {
+    background: var(--sage);
+    color: #fff;
+    border-color: var(--sage);
+}
+
+/* Post card left-border accent on hover */
+.post-entry:hover {
+    border-left: 3px solid var(--sage);
+    padding-left: 0.75rem;
+    transition: border-color 0.15s ease, padding-left 0.15s ease;
+}
+
+/* Table of contents link highlight */
+#TableOfContents a:hover {
+    color: var(--sage);
+}
+
+/* Inline code — subtle sage tint */
+code {
+    border: 1px solid var(--sage-muted);
+}

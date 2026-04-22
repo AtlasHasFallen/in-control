@@ -12,7 +12,7 @@ It started with one printer. It always starts with one printer.
 
 ## The Prusa
 
-A Prusa MK-series — the responsible choice. Well-documented, well-supported, a machine with opinions about quality. It has a temperature issue with the extruder that I've been meaning to sort out. I haven't sorted it out.
+A Prusa MK-series kit — built by hand, which at the time felt like an accomplishment worth mentioning. It has a temperature issue with the extruder that I've been meaning to sort out. I haven't sorted it out.
 
 ## The Mars
 
@@ -20,9 +20,9 @@ Resin. A completely different process — photopolymer cured layer by layer in a
 
 ## The Ender 3
 
-I thought: how hard can it be to build one yourself?
+The Prusa build went well enough that I thought: sure, another one.
 
-It's been partially assembled for a while now. I prefer not to say how long.
+The Ender 3 now lives in the workshop in a state I'll generously describe as "in progress." It keeps excellent company with several other projects that ran out of momentum before they ran out of ambition. The workshop is very patient.
 
 ## The Saturn
 

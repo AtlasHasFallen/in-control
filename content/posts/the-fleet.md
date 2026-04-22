@@ -12,7 +12,9 @@ It started with one printer. It always starts with one printer.
 
 What nobody tells you when you buy your first 3D printer is how many settings it has. Temperature, speed, layer height, retraction distance, cooling, infill — each one a dial you're expected to tune by feel, guided by forum posts from strangers who may or may not have the same filament, the same room temperature, or the same definition of "good enough."
 
-I am a process engineer. I build statistical models for manufacturing processes. I did not notice the irony of this for several years.
+![All those settings](/in-control/images/Slicer_overwhelm.svg)
+
+I am a process engineer.I build statistical models for manufacturing processes. I did not notice the irony of this for several years.
 
 By the time I noticed, I had accumulated a Prusa I built from a kit, two resin printers, a partially assembled Ender 3 that lives in the workshop graveyard, and two Bambu machines. Six printers. Hundreds of prints. Thousands of data points collected by accident and ignored on purpose.
 

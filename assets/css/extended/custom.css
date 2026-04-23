@@ -23,14 +23,16 @@ body {
     background-color: #1A2421;
 }
 
-/* PaperMod uses --theme for the main bg variable */
+/* PaperMod uses --theme for the main bg, --entry for post cards */
 :root {
     --theme: #F7F5F0;
+    --entry: #EEEAE3;
 }
 
 .dark,
 [data-theme="dark"] {
     --theme: #1A2421;
+    --entry: #243330;
 }
 
 /* Links */

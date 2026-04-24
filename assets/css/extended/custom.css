@@ -113,3 +113,41 @@ h1, .post-title {
 h2, h3 {
     font-variation-settings: 'opsz' 72;
 }
+
+/* ── Footnote popovers (littlefoot) ─────────── */
+
+.littlefoot__button {
+    background-color: var(--sage);
+    border-color: var(--sage);
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.65rem;
+    line-height: 1;
+}
+
+.littlefoot__button:hover,
+.littlefoot__button:focus,
+.littlefoot__button.is-active {
+    background-color: var(--sage-dark);
+    border-color: var(--sage-dark);
+}
+
+.littlefoot__popover {
+    background-color: #F0EDE8;
+    border: 1px solid var(--sage-muted);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.dark .littlefoot__popover,
+[data-theme="dark"] .littlefoot__popover {
+    background-color: var(--entry);
+    border-color: var(--sage-dark);
+    color: #e0ddd8;
+}
+
+.littlefoot__popover::before,
+.littlefoot__popover::after {
+    border-top-color: var(--sage-muted);
+}

@@ -114,6 +114,23 @@ h2, h3 {
     font-variation-settings: 'opsz' 72;
 }
 
+/* ── Technical drawing images ───────────────── */
+/* White-background drawings blend with page bg in light mode;
+   inverted + screen handles dark mode */
+
+.post-content figure img,
+.post-content img {
+    mix-blend-mode: multiply;
+}
+
+.dark .post-content figure img,
+.dark .post-content img,
+[data-theme="dark"] .post-content figure img,
+[data-theme="dark"] .post-content img {
+    mix-blend-mode: screen;
+    filter: invert(1);
+}
+
 /* ── Footnote popovers (littlefoot) ─────────── */
 
 .littlefoot__button {

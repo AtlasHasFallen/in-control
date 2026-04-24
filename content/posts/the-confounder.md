@@ -1,7 +1,7 @@
 ---
 title: "The Confounder"
 date: 2026-04-22
-draft: true
+draft: false
 tags: ["3d-printing", "doe", "measurement"]
 description: "Before you can model a process, you have to decide what you're measuring — and why it's harder than it sounds."
 ShowToc: true
